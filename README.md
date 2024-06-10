@@ -57,6 +57,7 @@ Register or Log in: Create an account or log in with existing credentials.
 2. Nodemon: A utility that monitors for any changes in your source and automatically restarts your server.
 3. JWT (JSON Web Tokens): A compact, URL-safe means of representing claims to be transferred between two parties for authentication.
 4. bcrypt: A library to help hash passwords.
+5. cloudinary:  A storing of resume in image format
    
 
 ## Database
