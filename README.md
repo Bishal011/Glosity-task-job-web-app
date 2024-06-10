@@ -188,6 +188,15 @@ Ensure you have the following installed on your system:
 
 # Video links
 
-##job portal Overview
+## job portal Overview
+
 https://drive.google.com/file/d/1Q1amYqLbaew2pFEnpQk0hS2_XbeGV9zO/view?usp=sharing
+
+## Frontend code explanation 
+
+https://drive.google.com/file/d/1QFfYmVHUTU5t5roHCBPTGqXufkhzgzHK/view?usp=sharing
+
+## Backend Code Explanation
+
+https://drive.google.com/file/d/1QL3G1SeSFp0gEAZUPitc-AkocgO-CTFO/view?usp=sharing
 
