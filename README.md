@@ -101,14 +101,14 @@ Ensure you have the following installed on your system:
 
    For the backend `.env` file:
    ```bash
-   PORT=5000
+   PORT=4000
    MONGODB_URI=mongodb://localhost:27017/job-portal
    JWT_SECRET=your_jwt_secret_key
    ```
 
    For the frontend `.env` file (if needed):
    ```bash
-   REACT_APP_API_URL=http://localhost:5000
+   REACT_APP_API_URL=http://localhost:5771
    ```
 
 ## Backend Setup
@@ -161,7 +161,7 @@ Ensure you have the following installed on your system:
      ```bash
      npm run dev
      ```
-   - The backend server will start at `http://localhost:5000`.
+   - The backend server will start at `http://localhost:4000`.
 
 3. **Start the frontend server:**
    - Open another terminal and navigate to the frontend directory:
@@ -172,7 +172,7 @@ Ensure you have the following installed on your system:
      ```bash
      npm run dev
      ```
-   - The frontend development server will start at `http://localhost:3000`.
+   - The frontend development server will start at `http://localhost:5771`.
 
 ## Accessing the Application
 1. Open your web browser and navigate to `http://localhost:5771`.
@@ -181,4 +181,9 @@ Ensure you have the following installed on your system:
 ## Additional Notes
 - **Hot Module Replacement:** Both the frontend and backend servers support hot module replacement, meaning changes you make to the source code will automatically be reflected without needing to restart the servers.
 - **API Requests:** Ensure that API requests from the frontend are directed to the backend server running at `http://localhost:4000`. This is set up using the `REACT_APP_API_URL` variable in the frontend `.env` file.
+
+
+
+
+# Video links
 
