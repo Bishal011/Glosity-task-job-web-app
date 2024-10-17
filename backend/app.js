@@ -17,10 +17,10 @@ app.use(
   cors({
     origin: [
       process.env.FRONTEND_URL,
-      "https://resonant-palmier-dcfcae.netlify.app",
+      "https://resonant-palmier-dcfcae.netlify.app"
     ],
     methods: ["GET", "POST", "DELETE", "PUT"],
-    credentials: true,
+    credentials: true, // Allow credentials (cookies) to be sent
   })
 );
 
@@ -47,5 +47,5 @@ dbConnection();
 // Error Middleware
 app.use(errorMiddleware);
 
-// Default export
-export default app; // Ensure this line is present
+// Export the app for use in server.js or index.js
+export default app;
