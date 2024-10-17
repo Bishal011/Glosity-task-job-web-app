@@ -16,11 +16,11 @@ config({ path: "./config/config.env" });
 app.use(
   cors({
     origin: [
-      process.env.FRONTEND_URL, // Make sure this is correctly set
+      process.env.FRONTEND_URL,
       "https://resonant-palmier-dcfcae.netlify.app",
     ],
-    methods: ["GET", "POST", "DELETE", "PUT"], // Corrected from 'method' to 'methods'
-    credentials: true, // Allows cookies to be sent
+    methods: ["GET", "POST", "DELETE", "PUT"],
+    credentials: true,
   })
 );
 
@@ -47,8 +47,5 @@ dbConnection();
 // Error Middleware
 app.use(errorMiddleware);
 
-// Start Server
-const PORT = process.env.PORT || 4000;
-app.listen(PORT, () => {
-  console.log(`Server running at port ${PORT}`);
-});
+// Default export
+export default app; // Ensure this line is present
