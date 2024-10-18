@@ -24,7 +24,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "https://glosity-task-job-web-app-14.onrender.com/api/v1/user/getuser",
+          "http://localhost:4000/api/v1/user/getuser",
           { withCredentials: true }
         );
         setUser(response.data.user);
