@@ -4,6 +4,10 @@
 
 Welcome to the Job Portal! This web application is designed to connect job seekers with employers. Job seekers can browse and apply for jobs, while employers can post job listings and manage applications. The portal aims to streamline the  recruitment process.
 
+# Live 
+
+https://skillhuntconnect.netlify.app/
+
 # Video links
 
 ## job portal Overview
